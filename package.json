@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/philholden/component-boilerplate/",
   "devDependencies": {
-    "ava": "^0.9.1",
+    "ava": "^0.15.2",
     "babel-cli": "^6.4.0",
     "babel-core": "^6.3.15",
     "babel-eslint": "^5.0.0-beta4",

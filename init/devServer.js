@@ -1,18 +1,19 @@
-var path = require('path')  // eslint-disable-line no-var
-var express = require('express')  // eslint-disable-line no-var
-var webpack = require('webpack')  // eslint-disable-line no-var
-var config = require('./webpack.config.dev') // eslint-disable-line no-var
-var compression = require('compression') // eslint-disable-line no-var
+'use strict' // eslint-disable-line strict
+let path = require('path')
+let express = require('express')
+let webpack = require('webpack')
+let config = require('./webpack.config')({ dev: true })
+let compression = require('compression')
 
-// var requestProxy = require('express-request-proxy')
-// var objectAssign = require('object-assign')
+// let requestProxy = require('express-request-proxy')
+// let objectAssign = require('object-assign')
 
-var app = express() // eslint-disable-line no-var
-var server = require('http').createServer(app) // eslint-disable-line no-var
-var io = require('socket.io')(server) // eslint-disable-line no-var
+let app = express()
+let server = require('http').createServer(app)
+//let io = require('socket.io')(server)
 
-var compiler = webpack(config) // eslint-disable-line no-var
-var port = 3000 // eslint-disable-line no-var
+let compiler = webpack(config)
+let port = 3000
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
@@ -25,11 +26,17 @@ app.use(compression({
   threshold: 512
 }))
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
+  next()
+})
+
 app.use('/', express.static('.'))
 
 // app.all('*', function(req, res, next) {
-//   var url = require('url').parse(req.url)
-//   var conf = objectAssign({}, req, {
+//   let url = require('url').parse(req.url)
+//   let conf = objectAssign({}, req, {
 //     url: 'http://127.0.0.1:8888' + url.pathname,
 //     timeout: 120000
 //   })
@@ -40,7 +47,7 @@ app.use('/', express.static('.'))
 //   res.sendFile(path.join(__dirname, 'index.html'))
 // })
 
-server.listen(port, '0.0.0.0', function (err) {
+server.listen(port, '0.0.0.0', err => {
   if (err) {
     console.log(err) // eslint-disable-line no-console
     return
@@ -48,14 +55,14 @@ server.listen(port, '0.0.0.0', function (err) {
   console.log('Listening at http://localhost:' + port) // eslint-disable-line no-console
 })
 
-io.on('connection', function (socket) {
-  io.set('origins', '*:*')
-  console.log('connected') // eslint-disable-line no-console
-  socket.emit('update', 'connected')
-  socket.on('single', function () {
-    socket.emit('update', 'single')
-  })
-  socket.on('publish', function (data) {
-    io.sockets.emit('update', data)
-  })
-})
+// io.on('connection', socket => {
+//   io.set('origins', '*:*')
+//   console.log('connected') // eslint-disable-line no-console
+//   socket.emit('update', 'connected')
+//   socket.on('single', () => {
+//     socket.emit('update', 'single')
+//   })
+//   socket.on('publish', data => {
+//     io.sockets.emit('update', data)
+//   })
+// })

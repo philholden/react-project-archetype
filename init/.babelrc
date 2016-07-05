@@ -1,10 +1,36 @@
 {
-  "presets": ["react", "es2015", "stage-1"],
+  "plugins": [
+    "transform-flow-strip-types",
+    "react-hot-loader/babel"
+  ],
   "env": {
     "development": {
-      "presets": ["react-hmre"]
+      "presets": [
+        "react",
+        "es2015-webpack",
+        "stage-1"
+      ]
+    },
+    "production": {
+      "presets": [
+        "react",
+        "es2015-webpack",
+        "stage-1"
+      ]
+    },
+    "test": {
+      "presets": [
+        "react",
+        "es2015",
+        "stage-1"
+      ]
     },
     "lib": {
+      "presets": [
+        "react",
+        "es2015",
+        "stage-1"
+      ],
       "plugins": [
         [
           "babel-plugin-webpack-loaders",
