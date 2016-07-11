@@ -18,7 +18,8 @@
     "babel/no-await-in-loop": 1,
     "flowtype/space-after-type-colon": [1, "always"],
     "flowtype/space-before-type-colon": [1, "never"],
-    "flowtype/type-id-match": [1, "^([A-Z][a-z0-9]+)+Type$"]
+    "flowtype/type-id-match": [1, "^([A-Z][a-z0-9]+)+Type$"],
+    "react/sort-comp": 0
   },
   "plugins": [
     "flowtype",

@@ -4,13 +4,16 @@ import React, { Component } from 'react'
 
 type CounterPropsType = {
   increment: number,
-  color: string,
+  color?: string,
 }
 
 export default class Counter extends Component {
   static defaultProps: {};
+  state: Object;
+  props: CounterPropsType;
+  interval: number;
 
-  constructor(props) {
+  constructor(props: CounterPropsType) {
     super(props)
     this.state = { counter: 0 }
     this.interval = setInterval(() => this.tick(), 1000)
@@ -19,8 +22,6 @@ export default class Counter extends Component {
   componentWillUnmount() {
     clearInterval(this.interval)
   }
-
-  props: CounterPropsType;
 
   tick() {
     this.setState({
