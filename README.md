@@ -1,4 +1,4 @@
-# react-projest-archetype
+# React Project Archetype
 
 This is a kitchen sink boilerplate for React components and apps:
 
@@ -18,10 +18,10 @@ You can generate a new project by first installing `builder-init`:
 npm install -g builder-init
 ```
 
-In this case we are using `builder-init` only for template string replacement mainly in `package.json`. This archetype is designed to be used with `npm install` rather than `builder install`. To create a new project using this template first clone this repo and then run:
+We are using `builder-init` for template string replacement mainly in `package.json`. This archetype is designed to be used with `npm install` rather than `builder install`. To create a new project using this template first clone this repo and then run:
 
 ```
-builder-init git+ssh://philholden@github.com:philholden/builder-react-component.git
+builder-init git+ssh://git@github.com:philholden/react-project-archetype.git
 ``` 
 
 Note: Run `git init` before `npm install` so that `ghooks` can find the git repo in the `npm install` process. If you forget to do this reinstall ghooks after `git init`:
