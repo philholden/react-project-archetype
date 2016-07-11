@@ -1,6 +1,6 @@
 # React Project Archetype
 
-This is a kitchen sink boilerplate for React components and apps:
+This is a boilerplate for React apps:
 
 * WebPack 2
 * Babel 6
@@ -24,7 +24,7 @@ We are using `builder-init` for template string replacement mainly in `package.j
 builder-init git+ssh://git@github.com:philholden/react-project-archetype.git
 ``` 
 
-Note: Run `git init` before `npm install` so that `ghooks` can find the git repo in the `npm install` process. If you forget to do this reinstall ghooks after `git init`:
+Note: Run `git init` before `npm install` so that `ghooks` can find the git repo (during the `npm install` process). If you forget to do this reinstall ghooks after `git init`:
 
 ```bash
 npm uninstall -D ghooks
@@ -41,3 +41,5 @@ semantic-release-cli setup
 ```
 
 Then copy the contents of `.travis-sample.yml` into the generate `.travis.yml` 
+
+For more details on other parts of the boilerplate see the generated readme.md after installing or [here](https://github.com/philholden/react-project-archetype/blob/master/init/README.md)
