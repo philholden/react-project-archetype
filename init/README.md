@@ -14,6 +14,10 @@
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
+## Install
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/KDw9MbsES1E/0.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
+
 ## Npm & Scripts
 
 Node Package Manager (npm) provides all the ingredients (modules) for our application while the `package.json` provides the recipe what we need (dependencies) and how to cook it (scripts).  

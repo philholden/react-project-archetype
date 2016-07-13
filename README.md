@@ -12,6 +12,10 @@ This is a boilerplate for React apps:
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
+## Install
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/KDw9MbsES1E/0.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
+
 You can generate a new project by first installing `builder-init`:
 
 ```bash
