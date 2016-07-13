@@ -14,7 +14,7 @@ This is a boilerplate for React apps:
 
 ## Install
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/KDw9MbsES1E/0.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
+[![Click to play Youtube video](https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
 
 You can generate a new project by first installing `builder-init`:
 
