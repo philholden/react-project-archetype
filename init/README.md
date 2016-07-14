@@ -16,10 +16,6 @@
 
 ## Install [<img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="40">](https://www.youtube.com/watch?v=KDw9MbsES1E)
 
-
-
-
-
 [![Click to play Youtube video](https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
 
 ## Npm & Scripts
@@ -195,9 +191,9 @@ However probably most users will want to override some of the rules in the `.esl
 
 Eslint should be used in conjunction with an editor plugin to provide errors and warnings as the user types.  
 
-## Typechecking - Flow
+## Typechecking - Flow (Video Below)
 
-[![Click to play Egghead video](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)
+[![Click to play Egghead video](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)](https://egghead.io/lessons/react-setup-nuclide-to-use-flow-and-eslint-mac)
 
 Flow is a JS type checker made by FaceBook and used by their React team. Types can help developers to ensure the correctness of code before running it. Warnings can be shown in an editor when saving a file.
 
