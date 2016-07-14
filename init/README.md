@@ -14,14 +14,14 @@
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
-## Install
+## Install 
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640" height="360">
+<img src='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640" height="360">
   <image xlink:href="https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg" x="0" y="0"  width="640" height="360"/>
   <svg preserveAspectRatio="xMidYMid meet" viewBox="-160 -90 320 180" width="100%" height="100%">
         <image xlink:href="https://developers.google.com/startups/images/logo-yt-red.svg" x="-25" y="-25" height="50px" width="50px"/>
   </svg>   
-</svg>
+</svg>'>
 
 <img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="100" position="relative: 100px 100px">
 
@@ -201,6 +201,8 @@ However probably most users will want to override some of the rules in the `.esl
 Eslint should be used in conjunction with an editor plugin to provide errors and warnings as the user types.  
 
 ## Typechecking - Flow
+
+[![Click to play Egghead video](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)
 
 Flow is a JS type checker made by FaceBook and used by their React team. Types can help developers to ensure the correctness of code before running it. Warnings can be shown in an editor when saving a file.
 
