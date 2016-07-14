@@ -1,9 +1,9 @@
 # <%= packageName %>
 
-[![travis build](https://img.shields.io/travis/philholden/<%= packageName %>.svg?style=flat-square)](https://travis-ci.org/philholden/<%= packageName %>)
-[![codecov coverage](https://img.shields.io/codecov/c/github/philholden/<%= packageName %>.svg?style=flat-square)](https://codecov.io/github/philholden/<%= packageName %>)
-[![version](https://img.shields.io/npm/v/@philholden/<%= packageName %>.svg?style=flat-square)](http://npm.im/@philholden/<%= packageName %>)
-[![downloads](https://img.shields.io/npm/dm/@philholden/<%= packageName %>.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@philholden/<%= packageName %>&from=2015-08-01)
+[![travis build](https://img.shields.io/travis/<%= packageGitHubOrg %>/<%= packageName %>.svg?style=flat-square)](https://travis-ci.org/<%= packageGitHubOrg %>/<%= packageName %>)
+[![codecov coverage](https://img.shields.io/codecov/c/github/<%= packageGitHubOrg %>/<%= packageName %>.svg?style=flat-square)](https://codecov.io/github/<%= packageGitHubOrg %>/<%= packageName %>)
+[![version](https://img.shields.io/npm/v/@<%= packageGitHubOrg %>/<%= packageName %>.svg?style=flat-square)](http://npm.im/@<%= packageGitHubOrg %>/<%= packageName %>)
+[![downloads](https://img.shields.io/npm/dm/@<%= packageGitHubOrg %>/<%= packageName %>.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@<%= packageGitHubOrg %>/<%= packageName %>&from=2015-08-01)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
 * Babel 6
