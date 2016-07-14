@@ -14,11 +14,7 @@
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
-## Install 
-
-<img src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjY0MCIgaGVpZ2h0PSIzNjAiPjxpbWFnZSB4bGluazpocmVmPSJodHRwczovL2ltZy55b3V0dWJlLmNvbS92aS9LRHc5TWJzRVMxRS9tYXhyZXNkZWZhdWx0LmpwZyIgeD0iMCIgeT0iMCIgIHdpZHRoPSI2NDAiIGhlaWdodD0iMzYwIi8+PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSItMTYwIC05MCAzMjAgMTgwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48aW1hZ2UgeGxpbms6aHJlZj0iaHR0cHM6Ly9kZXZlbG9wZXJzLmdvb2dsZS5jb20vc3RhcnR1cHMvaW1hZ2VzL2xvZ28teXQtcmVkLnN2ZyIgeD0iLTI1IiB5PSItMjUiIGhlaWdodD0iNTBweCIgd2lkdGg9IjUwcHgiLz48L3N2Zz48L3N2Zz4='>
-
-<img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="100" position="relative: 100px 100px">
+## Install <img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="50" position="relative: 100px 100px">
 
 [![Click to play Youtube video](https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
 
