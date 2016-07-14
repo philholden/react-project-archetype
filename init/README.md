@@ -16,7 +16,7 @@
 
 ## Install (Video Below)
 
-[![Click to play Youtube video](https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
+<a href="https://www.youtube.com/watch?v=KDw9MbsES1E" target="_blank"><img src="https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg"></a>
 
 ## Npm & Scripts
 
@@ -50,7 +50,7 @@ The projects `package.json` file has a scripts section which defines the tasks t
 
 ### Running and Building (Video Below)
 
-[![Click to play Youtube video](https://img.youtube.com/vi/7-dth6Z7eA4/maxresdefault.jpg)](https://www.youtube.com/watch?v=7-dth6Z7eA4)
+<a href="https://www.youtube.com/watch?v=7-dth6Z7eA4" target="_blank">![Click to play Youtube video](https://img.youtube.com/vi/7-dth6Z7eA4/maxresdefault.jpg)</a>
 
 To run the project in dev mode:
 
@@ -195,7 +195,7 @@ Eslint should be used in conjunction with an editor plugin to provide errors and
 
 ## Typechecking - Flow (Video Below)
 
-[![Click to play Egghead video](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)](https://egghead.io/lessons/react-setup-nuclide-to-use-flow-and-eslint-mac)
+<a href="https://egghead.io/lessons/react-setup-nuclide-to-use-flow-and-eslint-mac" target="_blank">![Click to play Youtube video](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)</a>
 
 Flow is a JS type checker made by FaceBook and used by their React team. Types can help developers to ensure the correctness of code before running it. Warnings can be shown in an editor when saving a file.
 
