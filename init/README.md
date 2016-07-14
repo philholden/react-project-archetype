@@ -14,7 +14,11 @@
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
-## Install <img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="50">
+## Install [<img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="40">](https://www.youtube.com/watch?v=KDw9MbsES1E)
+
+
+
+
 
 [![Click to play Youtube video](https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
 
