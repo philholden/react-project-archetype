@@ -14,7 +14,7 @@
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
-## Install [<img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="40">](https://www.youtube.com/watch?v=KDw9MbsES1E)
+## Install (Video Below)
 
 [![Click to play Youtube video](https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
 
@@ -48,7 +48,9 @@ npm install
 
 The projects `package.json` file has a scripts section which defines the tasks that can be run on our project. Using npm's scripts means `grunt` and `gulp` are seldom needed.
 
-### Running and Building
+### Running and Building (Video Below)
+
+[![Click to play Youtube video](https://img.youtube.com/vi/7-dth6Z7eA4/maxresdefault.jpg)](https://www.youtube.com/watch?v=7-dth6Z7eA4)
 
 To run the project in dev mode:
 
