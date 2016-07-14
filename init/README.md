@@ -15,6 +15,14 @@
 * Semantic release
 
 ## Install
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640" height="360">
+  <image xlink:href="https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg" x="0" y="0"  width="640" height="360"/>
+  <svg preserveAspectRatio="xMidYMid meet" viewBox="-160 -90 320 180" width="100%" height="100%">
+        <image xlink:href="https://developers.google.com/startups/images/logo-yt-red.svg" x="-25" y="-25" height="50px" width="50px"/>
+  </svg>   
+</svg>
+
 <img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="100" position="relative: 100px 100px">
 
 [![Click to play Youtube video](https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=KDw9MbsES1E)
