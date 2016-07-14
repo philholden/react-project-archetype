@@ -16,7 +16,7 @@
 
 ## Install 
 
-<img src='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640" height="360"><image xlink:href="https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg" x="0" y="0"  width="640" height="360"/><svg preserveAspectRatio="xMidYMid meet" viewBox="-160 -90 320 180" width="100%" height="100%"><image xlink:href="https://developers.google.com/startups/images/logo-yt-red.svg" x="-25" y="-25" height="50px" width="50px"/></svg></svg>'>
+<img src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjY0MCIgaGVpZ2h0PSIzNjAiPjxpbWFnZSB4bGluazpocmVmPSJodHRwczovL2ltZy55b3V0dWJlLmNvbS92aS9LRHc5TWJzRVMxRS9tYXhyZXNkZWZhdWx0LmpwZyIgeD0iMCIgeT0iMCIgIHdpZHRoPSI2NDAiIGhlaWdodD0iMzYwIi8+PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2aWV3Qm94PSItMTYwIC05MCAzMjAgMTgwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48aW1hZ2UgeGxpbms6aHJlZj0iaHR0cHM6Ly9kZXZlbG9wZXJzLmdvb2dsZS5jb20vc3RhcnR1cHMvaW1hZ2VzL2xvZ28teXQtcmVkLnN2ZyIgeD0iLTI1IiB5PSItMjUiIGhlaWdodD0iNTBweCIgd2lkdGg9IjUwcHgiLz48L3N2Zz48L3N2Zz4='>
 
 <img src="https://developers.google.com/startups/images/logo-yt-red.svg" width="100" position="relative: 100px 100px">
 
