@@ -43,6 +43,13 @@ app.use((req, res, next) => {
 //   }))
 // })
 
+app.get('/greeting', (req, res) => {
+  res.setHeader('Content-Type', 'application/json')
+  res.send(JSON.stringify({
+    greeting: 'greetings from dev server',
+  }))
+})
+
 app.use('/', express.static('.'))
 
 // app.all('*', (req, res, next) => {

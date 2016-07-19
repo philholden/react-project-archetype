@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Counter from './counter'
+import Fetcher from './fetcher'
 import man from '../../img/man.png'
 
 export const HelloWorld = () => <div>Hello World.</div>
