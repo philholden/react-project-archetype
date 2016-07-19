@@ -7,7 +7,7 @@
     "clean": "rimraf lib dist",
     "build:webpack": "npm run clean && NODE_ENV=production webpack --config webpack.config.js --env.prod",
     "build:babel": "npm run clean && NODE_ENV=lib babel src --out-dir lib",
-    "build": "npm run clean && npm run build:babel",
+    "build": "npm run clean && npm run build:webpack",
     "start": "node devServer.js",
     "lint": "eslint src",
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
