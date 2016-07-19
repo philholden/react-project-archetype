@@ -24,11 +24,18 @@ npm install -g builder-init
 
 We are using `builder-init` for template string replacement mainly in `package.json`. This archetype is designed to be used with `npm install` rather than `builder install`. To create a new project using this template first clone this repo and then run:
 
-```
+```bash
 builder-init git+ssh://git@github.com:philholden/react-project-archetype.git
 ```
 
-Note: Run `git init` before `npm install` so that `ghooks` can find the git repo (during the `npm install` process). If you forget to do this reinstall ghooks after `git init`:
+### Project Install
+
+```bash
+git init
+npm install
+```
+
+Note: Run `git init` before `npm install` so that `ghooks` can find the git repo. If you forget to do this reinstall `ghooks` after `git init`:
 
 ```bash
 npm uninstall -D ghooks
