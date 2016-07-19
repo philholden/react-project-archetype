@@ -1,29 +1,28 @@
 'use strict' // eslint-disable-line strict
-let path = require('path')
-let express = require('express')
-let webpack = require('webpack')
-let config = require('./webpack.config')({ dev: true })
-let compression = require('compression')
+const express = require('express')
+const webpack = require('webpack')
+const config = require('./webpack.config')({ dev: true })
+const compression = require('compression')
+const app = express()
+const server = require('http').createServer(app)
 
-// let requestProxy = require('express-request-proxy')
-// let objectAssign = require('object-assign')
+// const bodyParser = require('body-parser')
+// const path = require('path')
+// const requestProxy = require('express-request-proxy')
+// const io = require('socket.io')(server)
 
-let app = express()
-let server = require('http').createServer(app)
-//let io = require('socket.io')(server)
-
-let compiler = webpack(config)
-let port = 3000
+const compiler = webpack(config)
+const port = 3000
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
-  publicPath: config.output.publicPath
+  publicPath: config.output.publicPath,
 }))
 
 app.use(require('webpack-hot-middleware')(compiler))
 
 app.use(compression({
-  threshold: 512
+  threshold: 512,
 }))
 
 app.use((req, res, next) => {
@@ -32,18 +31,30 @@ app.use((req, res, next) => {
   next()
 })
 
+// app.use(bodyParser.json({
+//   limit: 100000000,
+//   type: 'application/json',
+// }))
+
+// app.post('/greeting', (req, res) => {
+//   res.setHeader('Content-Type', 'application/json')
+//   res.send(JSON.stringify({
+//     greeting: `greetings ${req.body.name} from dev server`,
+//   }))
+// })
+
 app.use('/', express.static('.'))
 
-// app.all('*', function(req, res, next) {
-//   let url = require('url').parse(req.url)
-//   let conf = objectAssign({}, req, {
+// app.all('*', (req, res, next) => {
+//   const url = require('url').parse(req.url)
+//   const conf = objectAssign({}, req, {
 //     url: 'http://127.0.0.1:8888' + url.pathname,
 //     timeout: 120000
 //   })
 //   requestProxy(conf)(req, res, next)
 // })
 
-// app.get('*', function (req, res) {
+// app.get('*', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'index.html'))
 // })
 
@@ -52,7 +63,7 @@ server.listen(port, '0.0.0.0', err => {
     console.log(err) // eslint-disable-line no-console
     return
   }
-  console.log('Listening at http://localhost:' + port) // eslint-disable-line no-console
+  console.log(`Listening at http://localhost:${port}`) // eslint-disable-line no-console
 })
 
 // io.on('connection', socket => {

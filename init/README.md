@@ -10,13 +10,13 @@
 * React Hot Loader 3
 * AVA for tests
 * Code coverage reports
-* Null loaders to allow unit testing where components that use Webpack loader 
+* Null loaders to allow unit testing where components that use Webpack loader
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
 ## Install (Video Below)
 
-<a href="https://www.youtube.com/watch?v=KDw9MbsES1E" target="_blank"><img src="https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg"></a>
+<a href="https://www.youtube.com/watch?v=KDw9MbsES1E" target="\_blank"><img src="https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg"></a>
 
 ## Npm & Scripts
 
@@ -50,7 +50,7 @@ The projects `package.json` file has a scripts section which defines the tasks t
 
 ### Running and Building (Video Below)
 
-<a href="https://www.youtube.com/watch?v=7-dth6Z7eA4" target="_blank">![Click to play Youtube video](https://img.youtube.com/vi/7-dth6Z7eA4/maxresdefault.jpg)</a>
+<a href="https://www.youtube.com/watch?v=7-dth6Z7eA4" target="\_blank">![Click to play Youtube video](https://img.youtube.com/vi/7-dth6Z7eA4/maxresdefault.jpg)</a>
 
 To run the project in dev mode:
 
@@ -112,7 +112,7 @@ Babel presets are used to choose which transformations to apply to code. See `pa
   "babel-preset-stage-1": "^6.5.0",
 ```
 
-These presets are enabled through the `.babelrc` file. `.babelrc` can be set up to use different presets based on an environment variable. Many of the `scripts` in `package.json` set the environment variable `NODE_ENV` or `BABEL_ENV` before running. This Allows a different setup for test, dev and production. 
+These presets are enabled through the `.babelrc` file. `.babelrc` can be set up to use different presets based on an environment variable. Many of the `scripts` in `package.json` set the environment variable `NODE_ENV` or `BABEL_ENV` before running. This Allows a different setup for test, dev and production.
 
 ## Module Bundling - Webpack 2
 
@@ -148,7 +148,7 @@ Now if you run the code in the browser in dev or production and open up the devt
 
 ## Hot Reloading
 
-Getting fast feedback enables developers to work more effectively. Hot reloading allows us to edit our code and reload it in the browser while keeping the state data intact. To try this out run the dev server: 
+Getting fast feedback enables developers to work more effectively. Hot reloading allows us to edit our code and reload it in the browser while keeping the state data intact. To try this out run the dev server:
 
 ```bash
 npm start
@@ -161,7 +161,9 @@ export const HelloWorld = () => <div>Hello People.</div>
 
 Now save the file. The browser automatically updates the text. If you would like state to persist between reloads consider using a library like Redux to store your state.
 
-## Testing - Ava
+## Testing - Ava (Video Below)
+
+<a href="https://www.youtube.com/watch?v=naJIvTWuKs4" target="\_blank"><img src="https://img.youtube.com/vi/naJIvTWuKs4/maxresdefault.jpg"></a>
 
 Ava is a modern testing framework designed to work well with ES2015. It runs tests concurrently which should make testing faster.
 
@@ -195,7 +197,7 @@ Eslint should be used in conjunction with an editor plugin to provide errors and
 
 ## Typechecking - Flow (Video Below)
 
-<a href="https://egghead.io/lessons/react-setup-nuclide-to-use-flow-and-eslint-mac" target="_blank">![Click to play Youtube video](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)</a>
+<a href="https://egghead.io/lessons/react-setup-nuclide-to-use-flow-and-eslint-mac" target="\_blank">![Click to play Youtube video](https://embedwistia-a.akamaihd.net/deliveries/a118a762c7f2f28ae8835486eda2e440df54c106.jpg)</a>
 
 Flow is a JS type checker made by FaceBook and used by their React team. Types can help developers to ensure the correctness of code before running it. Warnings can be shown in an editor when saving a file.
 
@@ -205,7 +207,7 @@ Types enable tooling in IDEs like jumping to function definitions. They can also
 
 With React `flowTypes` can be used in the place of reacts `propTypes` giving a single type system in the code base.
 
-Facebook has created and extension to the Atom editor called Nuclide which adds Flow support to the editor. 
+Facebook has created and extension to the Atom editor called Nuclide which adds Flow support to the editor.
 
 Additional linting rules have been added to `.eslintrc` to support Flow. Add in the following rules if you want to force types everywhere.
 
@@ -232,7 +234,7 @@ npm run commit
 
 Git hooks can be used to run tasks such as unit tests, coverage test and linters before each commit. If any of these tests error then no commit is performed. On the plus side it ensures code quality on the minus side it can lead to less frequent commits and so a greater chance of losing work. See the `ghooks` property of `package.json`. Note for ghooks to initialise correctly there must be a git repo present before you run `npm install` on the project.
 
-## Semantic release 
+## Semantic release
 
 This is really only useful for open source projects. It works with Conventional Change Log to release a new version of your module to `npm` when you push to `master` on Github. The build is run on Travis CI. Release notes and a new semantic version tag are created in the git repo on Github. See [these videos](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-automating-releases-with-semantic-release) for more info.
 
