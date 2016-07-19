@@ -5,10 +5,11 @@ This is a boilerplate for React apps:
 * WebPack 2
 * Babel 6
 * Flow
+* Eslint (AirBnB)
 * React Hot Loader 3
-* AVA
+* AVA + Enzyme
 * Code coverage reports
-* Null loaders to allow unit testing with components that use webpack loader
+* Null loaders to allow unit testing with components that use WebPack loaders
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
