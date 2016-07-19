@@ -16,6 +16,6 @@
 * WebSockets via Socket.IO set up on server (delete if not needed)
 * Semantic release
 
-## For notes and videos on how to install and use...
+This project was created with `react-project-archetype` For notes and videos on how to install and use see the readme:
 
-https://github.com/philholden/react-project-archetype#react-project-archetype
+## https://github.com/philholden/react-project-archetype#react-project-archetype

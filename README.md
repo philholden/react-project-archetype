@@ -35,12 +35,6 @@ npm uninstall -D ghooks
 npm install -D ghooks
 ```
 
----
-
-## Install (Click Video Below)
-
-<a href="https://www.youtube.com/watch?v=KDw9MbsES1E&t=0m30s" target="\_blank"><img src="https://img.youtube.com/vi/KDw9MbsES1E/maxresdefault.jpg"></a>
-
 ## Npm & Scripts
 
 Node Package Manager (npm) provides all the ingredients (modules) for our application while the `package.json` provides the recipe what we need (dependencies) and how to cook it (scripts).  
