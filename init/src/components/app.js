@@ -3,6 +3,7 @@
 import React from 'react'
 import Counter from './counter'
 import Fetcher from './fetcher'
+import { getGreeting } from '../api'
 import man from '../../img/man.png'
 
 export const HelloWorld = () => <div>Hello World.</div>
@@ -14,6 +15,7 @@ const App = () => (
     <Counter increment={5} />
     <HelloWorld />
     <img src={man} alt="man" />
+    <Fetcher getGreeting={getGreeting} />
   </div>
 )
 

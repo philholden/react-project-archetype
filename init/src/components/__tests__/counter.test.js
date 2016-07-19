@@ -8,7 +8,7 @@ import React from 'react'
 import { createRenderer } from 'react-addons-test-utils'
 import expect from 'expect'
 import expectJSX from 'expect-jsx'
-import Counter from '../components/counter'
+import Counter from '../counter'
 
 expect.extend(expectJSX)
 

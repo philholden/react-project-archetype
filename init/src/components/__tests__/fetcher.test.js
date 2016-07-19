@@ -1,7 +1,7 @@
 import test from 'ava'
 import React from 'react'
 import { shallow } from 'enzyme'
-import App from '../app'
+import Fetcher from '../fetcher'
 
 const delay = callback => new Promise(resolve => {
   setImmediate(() => {
@@ -18,18 +18,18 @@ const getGreetingError = () => new Promise(() => {
 })
 
 test('button text is: Get greeting', async t => {
-  const wrapper = shallow(<App />)
+  const wrapper = shallow(<Fetcher />)
   t.is(wrapper.find('button').text(), 'Get greeting')
 })
 
 test('greeting text initially empty', async t => {
-  const wrapper = shallow(<App />)
+  const wrapper = shallow(<Fetcher />)
   t.is(wrapper.find('h1').text(), '')
 })
 
 test.serial('submiting form shows loading message', async t => {
   const wrapper = shallow(
-    <App getGreeting={getGreetingSuccess} />
+    <Fetcher getGreeting={getGreetingSuccess} />
   )
   wrapper.find('form').simulate('submit', {
     preventDefault: () => {},
@@ -39,7 +39,7 @@ test.serial('submiting form shows loading message', async t => {
 
 test.serial('happy path', async t => {
   const wrapper = shallow(
-    <App getGreeting={getGreetingSuccess} />
+    <Fetcher getGreeting={getGreetingSuccess} />
   )
   wrapper.find('form').simulate('submit', {
     preventDefault: () => {},
@@ -52,7 +52,7 @@ test.serial('happy path', async t => {
 
 test.serial('sad path', async t => {
   const wrapper = shallow(
-    <App getGreeting={getGreetingError} />
+    <Fetcher getGreeting={getGreetingError} />
   )
   wrapper.find('form').simulate('submit', {
     preventDefault: () => {},
